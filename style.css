@@ -1,0 +1,292 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.header{
+min-height: 70vh;
+width: 100%;
+background-color:lavender;
+}
+nav{
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    }
+nav img{
+width: 80px;
+    }
+nav h1{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: -400px;
+    }
+.nav-links ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 8px 12px;
+        position: relative;
+        margin: 15px;
+        }
+.nav-links ul li a{
+            color:black;
+            text-decoration: none;
+            font-size: 20px;
+ }
+ .nav-links ul li a img{
+    height: 70%;
+    width: 70%;
+ }
+ .nav-links ul li a button{
+    padding: 10px 10px 10px 15px;
+    color: #fff;
+    background-color:coral;
+    border: none;
+ }
+ .Text-header{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+    
+.Text-Couse h1{
+        font-size: 80px;
+        font-weight: 600;
+}
+.Text-Couse p{
+    font-size: 20px;
+    line-height: 1.5em;
+}
+.Text-Couse{
+    margin-left: 30px;
+    width: 40%;
+}
+.Text-Couse .Orange1 {
+background-color: orangered;
+width: 110px;
+height: 40px;
+text-align: center;
+color: #fff;
+border: none;
+margin-right: 10px;
+margin-top: 120px;
+}
+.Text-Couse .Black{
+    background-color: black;
+    width: 110px;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    margin-top: 120px;
+}
+.Servies{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+ }
+ .Servies button{
+background-color:black;
+font-size: 16px;
+padding-top: 10px;
+width: 140px;
+height: 40px;
+text-align: center;
+color: #fff;
+border: none;
+margin-right: 10px;
+margin-top:20px;
+ }
+ .Servies p{
+    font-size: 20px;
+
+ }
+h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+p{
+    color:black;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+ }
+ .Fruits-col{
+    flex-basis: 30%;
+    margin-bottom: 20px 12px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    padding-top: 50px;
+ }
+h2{
+    text-align: center;
+    color:coral;
+}
+.Servies h1{
+    margin-top: 30px;
+    font-weight: 600;
+}
+.test h5{
+text-align: center;
+float: left;
+}
+body{
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+.fresh{
+    text-align: center;
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    line-height: 1em;
+    margin-top: 60px;
+    color: black;
+}
+.fresh h2{
+    font-size: 30px;
+    color: black;
+}
+.fruit{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    width: 80%;
+    margin: auto;
+}
+
+.tex{
+    width: 50%;
+    float: left;
+    margin-left: 20px;
+    /* border: 1px solid black; */
+}
+
+.pic{
+    width: 40%;
+    float: right;
+    /* border: 1px solid black; */
+
+}
+
+.fruit img{
+    height: 150px;
+    width: 160px;
+    
+}
+
+.pic img{
+    padding: 0 100px;
+    margin-top: 25px;
+    float: right;
+}
+.box1 , .box2 , .box3{
+    margin-bottom: 20px;
+
+}
+.tex p{
+    text-align: justify;
+    font-size: 18px;
+}
+.tex button{
+    border: none;
+    background-color: black;
+    color: white;
+    height: 35px;
+    width: 120px;
+    margin-top: 40px;
+}
+
+.tex h3{
+    font-size: 30px;
+}
+.test{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.test h3{
+    font-size: 30px;
+}
+.cont input {
+    display: block;
+    margin-top: 50px;
+    width: 50%;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.cont{
+    width: 85%;
+    float: left;
+}
+.cont button{
+    margin-top: 60px;
+    background-color: orangered;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+    
+}
+.cont-pic{
+    width: 15%;
+    float: right;
+}
+.contact{
+    width: 80%;
+    margin: auto;
+}
+.buttom{
+display: flex;
+width: 80%;
+margin: auto;
+justify-content: space-around;
+}
+.btm{
+    width:160px;
+    height: 100px;
+    margin: 90px;
+}
+.btm h3{
+    font-size: 25px;
+    padding-left: 10px;
+    font-weight: 100;
+    font-style: normal;
+}
+.btm img{
+margin-top: 20px;
+height: 40px;
+width: 40px;
+}
+.btm h3{
+    margin-top: 20px;
+    font-size: 25px;
+    
+}
+.btm input{
+width: 190px;
+height: 25px;
+margin-top: 10px;
+}
+.btm button{
+    margin-top: 20px;
+    background-color: orangered;
+    color: white;
+    width: 120px;
+    height: 30px;
+    border: none;
+}
+
+.foot{
+    background-color: aliceblue;
+    text-align: center;
+    height: 50px;
+    margin-top: 200px;
+}
